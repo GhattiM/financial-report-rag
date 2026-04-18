@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Compare the states of incorporation for Amazon, Apple, and NVIDIA.",
+        "answer": "Amazon is incorporated in Delaware; Apple is incorporated in California; NVIDIA is incorporated in Delaware.",
+        "source": "Amazon p.1, Apple p.1, NVIDIA p.1",
+        "company": "Multi"
+    },
+    {
+        "question": "What are the primary stock exchange listings for all three companies?",
+        "answer": "| Company | Exchange | Trading Symbol |\n|-----------------|--------------------------------|----------------|\n| Amazon.com, Inc. | Nasdaq Global Select Market |\n| Apple Inc. | The Nasdaq Stock Market LLC |\n| NVIDIA Corporation | The Nasdaq Global Select Market |",
+        "source": "Page 1 of all reports",
+        "company": "Multi"
+    },
+    {
+        "question": "What was Amazon total net sales for the year ended Dec 31, 2025?",
+        "answer": "Amazon.com, Inc. ends its fiscal year on December 31 [AMAZON | 10-K]. For the year ended December 31, 2025, Amazon's total net sales were $716,924 million",
+        "source": "[AMAZON | 10-K | Page 37]",
+        "company": "Amazon"
+    },
+    {
+        "question": "Compare the Net Income of NVIDIA vs. Apple for their latest fiscal years.",
+        "answer": "| Company | Fiscal Year End | Net Income |\n|---|---|---|\n| NVIDIA Corporation | January 25, 2026 | $120,067 Million |\n| Apple Inc. | September 27, 2025 | $112,010 Million |",
+        "source": "NVIDIA 10-K p.52, Apple 10-K p.32",
+        "company": "Multi"
+    },
+    {
+        "question": "What was NVIDIA revenue specifically from the 'Compute & Networking' segment?",
+        "answer": "| Fiscal Year End | Segment | Revenue |\n|---|---|---|\n| January 25, 2026 | Compute & Networking | $193,479 Million |\n| January 26, 2025 | Compute & Networking | $82,875 Million |",
+        "source": "NVIDIA 10-K, Page 77",
+        "company": "NVIDIA"
+    },
+    {
+        "question": "Compare the Cash and Cash Equivalents for Amazon and Apple.",
+        "answer": "| Company | Fiscal Year End | Cash and Cash Equivalents |\n|---|---|---|\n| Amazon.com, Inc. | December 31, 2025 | $86,810 Million |\n| Apple Inc. | September 27, 2025 | $35,934 Million |",
+        "source": "Amazon 10-K p.39, Apple 10-K p.34",
+        "company": "Multi"
+    },
+    {
+        "question": "Compare the accounts receivable of Amazon and NVIDIA.",
+        "answer": "| Company | Fiscal Year End | Accounts Receivable |\n|---|---|---|\n| Amazon.com, Inc. | December 31, 2025 | $67,729 Million |\n| NVIDIA Corp | January 25, 2026 | $38,466 Million |",
+        "source": "Amazon 10-K p.39, NVIDIA 10-K p.53",
+        "company": "Multi"
+    },
+    {
+        "question": "What is a primary risk factor listed by Amazon regarding its international operations?",
+        "answer": "| Risk Category | Primary Risk Factor Details |\n|---|---|\n| Economic & Political | Local economic and political conditions |\n| Regulatory | Government regulation of product and service offerings and of competition |\n| Governmental Actions | Restrictive governmental actions (such as trade) |",
+        "source": "Amazon 10-K, Page 7",
+        "company": "Amazon"
+    },
+    {
+        "question": "What risk does NVIDIA face regarding its 'Data Center' business?",
+        "answer": "NVIDIA faces several critical risks for its Data Center business, including the availability of resources (energy, capital, and data center space), complex regulatory challenges in expanding energy capacity, and significant export controls. Specifically, Chinese government restrictions and a push toward domestic competitors threaten revenue, while new mandates for chip tracking and throttling could introduce vulnerabilities. Additionally, the high absolute energy requirements of GPUs and export-related restrictions on downstream users and Cloud Service Providers (CSPs) further impact financial results.",
+        "source": "NVIDIA 10-K, Pages 11, 16, 22, 26, 27, 36",
+        "company": "NVIDIA"
+    },
+    {
+        "question": "Identify a legal risk mentioned by Apple related to its Services business.",
+        "answer": "Apple Inc. is subject to antitrust investigations and litigation in various jurisdictions around the world relating to App Store terms and conditions [Apple | 10-K | Page 17]. If such investigations or litigation are resolved against the Company, the Company can be exposed to significant fines and may be required to make further changes to its business practices [Apple | 10-K | Page 17]",
+        "source": "Apple, Page 8",
+        "company": "Apple"
+    }
+]
