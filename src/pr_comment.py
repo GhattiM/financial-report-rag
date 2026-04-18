@@ -21,7 +21,6 @@ def format_results():
     metrics = [
         'faithfulness', 
         'answer_relevancy', 
-        'context_precision', 
         'context_recall', 
         'answer_correctness'
     ]
