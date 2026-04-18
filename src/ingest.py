@@ -24,6 +24,7 @@ def process_pdfs_from_list(pdf_paths):
 
     for path in tqdm(pdf_paths, desc="📁 Overall Progress"):
         filename = os.path.basename(path)
+        # test comment
         # Clean company name: e.g., "APPLE_Annual_Report.pdf" -> "APPLE"
         company_name = filename.split("_")[0].upper()
         print(f"  📄 Processing {company_name}...")

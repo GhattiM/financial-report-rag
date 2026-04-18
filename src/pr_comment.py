@@ -21,7 +21,6 @@ def format_results():
     metrics = [
         'faithfulness', 
         'answer_relevancy', 
-        'context_precision', 
         'context_recall', 
         'answer_correctness'
     ]
@@ -47,7 +46,7 @@ def format_results():
     
     # Limit to top 5 for the comment to avoid bloat
     for _, row in df.head(5).iterrows():
-        summary += f"| {row['question'][:50]}... | {row.get('faithfulness', 'N/A'):.2f} | {row.get('answer_relevancy', 'N/A'):.2f} | {row.get('answer_correctness', 'N/A'):.2f} |\n"
+        summary += f"| {row['user_input'][:50]}... | {row.get('faithfulness', 'N/A'):.2f} | {row.get('answer_relevancy', 'N/A'):.2f} | {row.get('answer_correctness', 'N/A'):.2f} |\n"
     
     summary += f"\n*Full results saved in `data/eval_ragas_results.json`*"
     
